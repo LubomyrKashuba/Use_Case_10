@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
+import testValidateText from './validation/__tests__/testValidateText';
+import './index.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -10,3 +11,5 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+console.log(testValidateText())
